@@ -1,9 +1,8 @@
-publishDir = "C:/Users/Rey-DLSU/Documents/R/github_pages/r-mas.github.io"
-baseurl = "/"
+publishDir = "D:/Rey/Projects/Github/r-mas.github.io"
 
 #publishDir = "docs"
-#baseurl = "/"
 
+baseurl = "https://r-mas.github.io/"
 title = "r-mas"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
