@@ -1,6 +1,6 @@
-publishDir = "D:/Rey/Projects/Github/r-mas.github.io"
+#publishDir = "D:/Rey/Projects/Github/r-mas.github.io"
 
-#publishDir = "docs"
+publishDir = "docs"
 
 baseurl = "https://r-mas.github.io/"
 title = "r-mas"
