@@ -5,6 +5,7 @@ date: '2017-05-07'
 slug: scraping-web-data-on-uitfs-using-r
 categories:
   - Finance
+  - Scraping
   - Data Cleaning
   - R
 tags:
@@ -19,6 +20,7 @@ output:
   blogdown::html_page:
     toc: true
 ---
+
 
 
 ```{r setup_chunk, include=FALSE}
@@ -682,11 +684,10 @@ ggiraph(ggobj = plot, height_svg = 5, width_svg = 9, width = 1,
 
 <br />
 
-Based from the plots above, the best performing UITF for the past `r as.integer(max(price_data$Date) - min(price_data$Date))` days is . But this is just a very basic observation. An in-depth analysis of this dataset will be the subject of another post. Nevertheless, we were able to demonstrate how we can produce an interesting dataset from multiple sources in the web using R.
+Based from the plots above, the best performing UITF for the past `r as.integer(max(price_data$Date) - min(price_data$Date))` days is . But this is just a very basic observation. An in-depth analysis of this dataset will be the subject of another post. Nevertheless, we were able to demonstrate how we can produce an interesting dataset from multiple sources in the web using R. You can download the `uitf_matrix` dataset [here](https://github.com/r-mas/ph_uitf/blob/master/Datasets/uitf_matrix_05_07_2017.csv).
 
 
 
 
 <br /><br /><br /><br /><br />
-
 
