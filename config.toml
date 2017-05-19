@@ -1,6 +1,6 @@
-#publishDir = "D:/Rey/Projects/Github/r-mas.github.io"
+publishDir = "D:/Rey/Projects/Github/r-mas.github.io"
 
-publishDir = "docs"
+#publishDir = "docs"
 
 baseurl = "https://r-mas.github.io/"
 title = "r-mas"
@@ -43,7 +43,7 @@ paginate = 10
     viewMorePostLink = "/blog/"
     author = "Rey Anthony Masilang"
     defaultKeywords = [""]
-    defaultDescription = "Site template made by devcows using hugo"
+    defaultDescription = "Rey Anthony Masilang | r-mas"
 
     # Google Maps API key (if not set will default to not passing a key.)
     googleMapsApiKey = ""
@@ -66,7 +66,7 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "rey.masilang@gmail.com"
 
-    about_us = "<p>I'm just a curious man trying out different stuff in life.</p>"
+    about_us = "<p>I'm a curious man trying to find hacks in real life.</p>"
     copyright = "Copyright &copy 2017. Rey Anthony Masilang. All Rights Reserved."
 
     # Format dates with Go's time formatting
