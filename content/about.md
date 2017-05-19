@@ -4,7 +4,7 @@ description = "About Me"
 keywords = ["About", "About Me"]
 +++
 
-## Rey Anthony A. Masilang
+## *Rey Anthony A. Masilang*
 
 <br/>
 

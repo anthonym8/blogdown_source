@@ -1,6 +1,7 @@
 publishDir = "D:/Rey/Projects/Github/r-mas.github.io"
 
 #publishDir = "docs"
+pluralizelisttitles = false
 
 baseurl = "https://r-mas.github.io/"
 title = "r-mas"
@@ -19,25 +20,20 @@ paginate = 10
 [menu]
 
 [[menu.main]]
-    name = "Home"
-    url  = "/"
-    weight = 1
-
-[[menu.main]]
     name = "Blog"
     url  = "/blog/"
-    weight = 2
+    weight = 1
 
 [[menu.main]]
     name = "About Me"
     identifier = "about"
     url  = "/about/"
-    weight = 3
+    weight = 2
 
 [[menu.main]]
     name = "Contact"
     url  = "/contact/"
-    weight = 4
+    weight = 3
 
 [params]
     viewMorePostLink = "/blog/"
@@ -131,3 +127,6 @@ paginate = 10
     enable = true
     title = "Blog"
     subtitle = ""
+    
+    
+
