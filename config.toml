@@ -1,4 +1,4 @@
-publishDir = "D:/Rey/Projects/Github/r-mas.github.io"
+publishDir = "/home/anthonym/projects/personal_site/r-mas.github.io"
 
 #publishDir = "docs"
 pluralizelisttitles = false
