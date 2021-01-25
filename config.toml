@@ -1,3 +1,5 @@
+publishDir = "/Users/reyanthonymasilang/dev/misc/r-mas.github.io"
+
 theme = "toha"
 baseURL = "https://r-mas.github.io"
 languageCode = "en-us"

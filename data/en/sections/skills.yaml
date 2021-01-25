@@ -13,27 +13,27 @@ section:
 skills:
 - name: Python
   logo: "/images/sections/skills/python.png"
-  summary:
+  summary: "I use python in everything from data analyses to model development to workflow orchestration, etc."
   
 - name: R
   logo: "/images/sections/skills/R.png"
-  summary:
+  summary: "Proficient in tidyverse for data wrangling and data analysis"
   
 - name: SQL
   logo: "/images/sections/skills/SQL.png"
-  summary:
+  summary: "Expert in various flavors of SQL for data extraction and advanced analytics"
   
 - name: Machine Learning
   logo: "/images/sections/skills/machine_learning.png"
-  summary:
+  summary: "Experienced with building prediction, recommender, and forecast models"
   
 - name: Data Visualization
   logo: "/images/sections/skills/data_visualization.png"
-  summary:
+  summary: "Obsessed with fine-looking charts and geospatial visualizations"
   
 - name: Data Engineering
   logo: "/images/sections/skills/airflow.png"
-  summary:
+  summary: "Skilled in data warehousing and complex data pipelines from many different data sources"
   
 - name: Cloud Computing
   logo: "/images/sections/skills/cloud.png"
