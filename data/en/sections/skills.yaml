@@ -1,0 +1,44 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Python
+  logo: "/images/sections/skills/python.png"
+  summary:
+  
+- name: R
+  logo: "/images/sections/skills/R.png"
+  summary:
+  
+- name: SQL
+  logo: "/images/sections/skills/SQL.png"
+  summary:
+  
+- name: Machine Learning
+  logo: "/images/sections/skills/machine_learning.png"
+  summary:
+  
+- name: Data Visualization
+  logo: "/images/sections/skills/data_visualization.png"
+  summary:
+  
+- name: Data Engineering
+  logo: "/images/sections/skills/airflow.png"
+  summary:
+  
+- name: Cloud Computing
+  logo: "/images/sections/skills/cloud.png"
+  summary: "Worked with both Amazon Web Services and Google Cloud Platform"
+
+- name: Git
+  logo: "/images/sections/skills/git.png"
+  summary: "Experienced with git-based development, Github, Gitlab, Bitbucket"

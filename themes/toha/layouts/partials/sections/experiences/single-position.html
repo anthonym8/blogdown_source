@@ -1,0 +1,25 @@
+<div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        {{ $position:= index .positions 0 }}
+        <!-- For single position, give emphasis on the designation-->
+        <h5>{{ $position.designation }}</h5>
+        <h6>{{ if .company.url }}<a href={{.company.url}}>{{ .company.name }}</a>{{ else }}{{ .company.name }}{{ end }}</h6>
+        <!-- Add experience duration info -->
+        <p class="text-muted">{{ $position.start }} - {{ if $position.end }}{{ $position.end }}{{ else }}Present{{ end }} |
+            {{ .company.location }}
+        </p>
+    </div>
+    <!-- Add company overview -->
+    {{ range $position.overview }}
+        <p>{{ . | markdownify }}</p>
+    {{ end }}
+    <!-- Add the responsibilities handled at this position -->
+    {{ range $position.sections }}
+    <h6>{{ .name | markdownify }}</h6>
+        <ul class="justify-content-around">
+        {{ range .description }}
+            <li>{{ . | markdownify }}</li>
+        {{ end }}
+        </ul>
+    {{ end }}
+</div>

@@ -1,0 +1,141 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Lala App Philippines Inc.
+    url: "https://lalafood.app"
+    location: Metro Manila, Philippines
+
+  positions:
+  - designation: Data Science and Data Engineering Lead
+    start: Oct 2020
+    # end: Dec 2020
+    overview: 
+    - As pioneer data scientist, I built LalaFood's data science team from the ground up. Currently serving as head of both DS and DE, I lead a team of data scientists and engineers, spearheading the planning and execution of LalaFood’s data science strategy.
+    - Working with Product, Marketing, Operations and Leadership teams, we have expanded the use cases of the company’s data assets to improve the products and business of LalaFood.
+    - "My team's notable accomplishments include:"
+    sections:
+    - name: Intelligent Product Features
+      description:
+      - Spatio-temporal demand forecasts used in the driver app heatmap, enhancing driver productivity
+      - Delivery time prediction using machine learning to enhance the user experience
+      - In-app merchant recommendations to optimize the in-app sales funnel
+      - Order pooling algorithm and parameter tuning to improve service capacity
+      
+    - name: Business Optimization
+      description:
+      - Data-driven pricing strategy for both consumers and delivery partners
+      - Spending optimization through data analyses, resulting to an 87% reduction in supply-side variable cost
+      - Real-time geospatial visualizations of customer activity, demand and supply gaps, etc.
+      - Natural language processing on customer reviews and behavioral inference on app usage data
+      - Customer segmentation using unsupervised machine learning
+
+    - name: DataOps, Infrastructure, and Data Management
+      description:
+      - Development of LalaFood’s data warehouse with 3-hour data latency
+      - Data warehousing for production data, Firebase app logs, backend API logs, 3rd-party tools data, competitive intelligence data
+      - Standardized ETL development process and QA to improve code and data quality
+      - Adoption of big data workflow tools, e.g. Apache Airflow, Spark, Amazon S3, Redshift
+      - Data catalog to improve data discovery and analytics productivity
+
+    - name: Management/technical toolkit
+      description:
+      - Agile, Kanban, Jira, Confluence
+      - Python, R, SQL
+      - Tableau, Google Data Studio, Kepler.GL, Plotly
+      - AWS, EC2, S3, Redshift, EMR
+      - Google BigQuery, Cloud Storage
+      - Apache Airflow, Spark
+      - fbprophet, scikit-learn
+
+- company:
+    name: PayMaya Philippines Inc.
+    url: "https://www.paymaya.com"
+    location: Metro Manila, Philippines
+
+  positions:
+  - designation: Senior Data Scientist
+    start: Sep 2018
+    end: Dec 2019
+    overview: 
+    - "I led vital analytics and data science initiatives for PayMaya. I collaborated and worked closely with different functional teams such as marketing, operations, analytics, tech, and product development. Some of my notable work include:"
+
+    sections:
+    - name: Customer Analytics & Insights
+      description:
+      - Scaled up the company's customer lifecycle tracking and segmentation which uses unsupervised machine learning techniques
+      - Measured churn propensity for PayMaya's entire customer base using statistical models that utilize attributes like customer age, platform usage frequency, and recency
+      - Identified meaningful insights such as high-volume interactions between key merchants and PayMaya users through data deep dives
+
+    - name: Business Optimization
+      description:
+      - Measured, tracked, and drilled down into the key drivers of operational costs
+      - Surfaced prevalent customer usage patterns which translate to cost reduction opportunities
+      - Analyzed and validated the impact to business KPIs of cost optimization initiatives
+      - Helped mitigate promo abuse via a novel method that utilizes statistical outlier detection
+
+    - name: Risk Management
+      description:
+      - Led the creation of our merchant anomaly detection system, adding a layer of payments security for our PayMaya app users
+      - Developed fraud prediction models for the consumer and merchant business units, enabling our risk management team to detect suspicious activity at high precision
+      - Identified valuable data sources and set up automated data collection processes for faster transaction monitoring
+
+    - name: Analytics Innovation
+      description:
+      - Conducted R programming and data visualization workshops, improving the analytics capabilities within the company
+      - Developed the first near-real-time data ingestion and analytics consumption project within the company
+      - Scaled up the use of open-source software for workflow automation, machine learning, and interactive data visualization
+      - Improved the toolkit for big data modeling, enabling data scientists to analyze larger datasets, experiment rapidly, and deliver ML models faster
+
+
+- company:
+    name: Uber
+    url: "https://www.uber.com"
+    location: Metro Manila, Philippines
+
+  positions:
+  - designation: Data Analytics Specialist, Uber Eats
+    start: Sep 2017
+    end: Aug 2018
+    
+    sections:
+    - name: "Customer Analytics & Insights"
+      description:
+      - Scaled up the company's customer lifecycle tracking and segmentation which uses unsupervised machine learning techniques
+      - Measured churn propensity for PayMaya's entire customer base using statistical models that utilize attributes like customer age, platform usage frequency, and recency
+      - Identified meaningful insights such as high-volume interactions between key merchants and PayMaya users through data deep dives
+
+    - name: "Key Accomplishments:"
+      description:
+      - Launched an automated anomaly detection/alerts service for the entire APAC region, accelerating decision-making to reduce defects and bad experiences for our customers across the region
+      - Enhanced the scope, scale, and granularity of analytics for Uber Eats APAC by standardizing data processing pipelines, automating workflows, and migrating to a big data framework
+      - Developed insights-generating tools and co-created new metrics with key stakeholders by exploring and leveraging both Uber’s huge data assets and other external data sources
+
+    - name: "Key Responsibilities:"
+      description:
+      - Translating business requirements and needs into analytics/reporting specs and delivering self-service dashboards and reports to regional stakeholders
+      - Developing new ways of presenting KPIs and other metrics to stakeholders to improve visibility over the health of our community operations
+      - Improving the tooling for the analytics team to enable better data visualization and automating data extraction and workflows to improve reporting SLAs
+      - Mentoring junior members of the team about python, data visualization, automation, big data, etc.
+
+    - name: "Other responsibilities/projects:"
+      description:
+      - Workflow automation framework using Python
+      - BI platform migration into Google Data Studio and Google BigQuery
+      - Defect rate prediction using weather forecasts
+      - Designed new KPIs for Uber Eats mobile analytics
+
+    - name: "Technical toolkit:"
+      description:
+      - Python, R, Google Apps Script, Shell Scripting
+      - SQL, Vertica, Hive, Presto, BigQuery
+      - Shiny, Data Studio, Google Analytics
