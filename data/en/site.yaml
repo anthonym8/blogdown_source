@@ -7,3 +7,6 @@ description: Portfolio and personal blog of Rey Anthony Masilang.
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
+- name: Blog
+  url: "/posts"
+
