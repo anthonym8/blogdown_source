@@ -1,0 +1,80 @@
+---
+title: How to Spin Up a Local Data Warehouse with Real-World Data
+author: Rey Anthony Masilang
+date: '2021-02-05'
+slug: []
+menu:
+  sidebar:
+    name: Spin Up a Data Warehouse
+    identifier: spin-up-data-warehouse
+    parent: analytics
+    
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<p><br></p>
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>In this article, I’ll show you how you can easily spin up a data warehouse (Postgres) on your computer with real-world data from <a href="https://datascience.stackexchange.com/">Data Science StackExchange</a>.</p>
+<div id="but-why" class="section level5">
+<h5><strong>But why?</strong></h5>
+<p>Whether you’re an aspiring data scientist, an expert business intelligence developer, or anything else in between, you can use this to hone your <strong>SQL skills</strong> by practicing it on actual data collected by an actual company.</p>
+<p>Plus you can even connect this data warehouse instance to BI software like <strong>Tableau</strong> or <strong>Power BI</strong> so you can both practice data visualization and build an online portfolio when you publish your work on <a href="https://public.tableau.com/en-us/gallery">Tableau Public</a> or <a href="https://community.powerbi.com/t5/Galleries/ct-p/PBI_Comm_Galleries">Power BI Community</a></p>
+<p><br></p>
+</div>
+</div>
+<div id="just-four-steps" class="section level2">
+<h2>Just four steps:</h2>
+<p>Hopefully you’re using MacOS or Ubuntu. If you’re on Windows, be more patient and Godspeed!</p>
+<ol style="list-style-type: decimal">
+<li><strong>Install Docker.</strong>
+<ul>
+<li><strong><a href="https://docs.docker.com/docker-for-windows/install/">For Windows</a></strong>, follow the instructions carefully, especially the <em>System Requirements</em> section.</li>
+<li><strong><a href="https://docs.docker.com/docker-for-mac/install/">For MacOS</a></strong>.</li>
+<li><strong><a href="https://docs.docker.com/engine/install/ubuntu/">For Ubuntu</a></strong>.
+<br><br></li>
+</ul></li>
+<li><strong>Run this command via Terminal (for Mac/Ubuntu) or via PowerShell (for Windows):</strong>
+<ul>
+<li><code>docker run -p 5439:5432 -d rmasi/misc:stack-exchange-dwh</code></li>
+<li><img src="docker_run.png" title="fig:" alt="docker run screenshot from Ubuntu terminal" /></li>
+<li>If you get permission errors, try <code>sudo docker run -p 5439:5432 -d rmasi/misc:stack-exchange-dwh</code> instead.
+<br><br></li>
+</ul></li>
+<li><strong>Connect your SQL client, e.g. <a href="https://www.sql-workbench.eu/">SQLWorkbench/J</a>. </strong>
+<ul>
+<li>Use the following parameters:
+<ul>
+<li>username: <code>user</code></li>
+<li>password: <code>password</code></li>
+<li>hostname: <code>localhost</code></li>
+<li>port: <code>5439</code></li>
+<li>JDBC URL: <code>jdbc:postgresql://localhost:5439/database</code></li>
+<li>driver: <a href="https://jdbc.postgresql.org/download.html">PostgreSQL</a></li>
+</ul></li>
+<li><img src="connect_sql_client.png" alt="SQLWorkbench/J connection window" />
+<br><br></li>
+</ul></li>
+<li><strong>Fire away!</strong>
+<ul>
+<li>Explore the tables in the <code>datascience</code> schema using the Database Explorer.</li>
+<li><img src="first_query.png" title="fig:" alt="First SQL SELECT statement" /></li>
+</ul></li>
+</ol>
+<p><br></p>
+</div>
+<div id="whats-in-this-dataset" class="section level2">
+<h2>What’s in this dataset?</h2>
+<p>The dataset is from Data Science StackExchange, similar to StackOverflow but focusing on data science topics. The tables contain structured data from the website’s user-generated content such as posts, tags, comments, users, votes, etc.</p>
+<p>Unlike other free datasets online, this is a complete copy of a relational database, perfect for practicing SQL select statements, joins, aggregate functions, etc.. Most companies store their data this way and it’s a good way to simulate actual work in an actual company.</p>
+<p><br></p>
+</div>
+<div id="some-final-words" class="section level2">
+<h2>Some final words…</h2>
+<p>As of the time of writing, I have yet to analyze the data myself. But of course, having the infrastructure is always the first step in analyzing data <em>(at least via SQL)</em>. Again, just like in the real world. Good luck and happy querying!</p>
+<p>Check out the github project here [<a href="https://www.github.com/r-mas/stack-exchange-dwh">r-mas/stack-exchange-dwh</a>].</p>
+<p><br><br>
+<span>**Banner photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/s/photos/data-warehouse?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+</div>
