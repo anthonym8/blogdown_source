@@ -1,4 +1,4 @@
-publishDir = "/Users/reyanthonymasilang/dev/misc/r-mas.github.io"
+publishDir = "/home/anthonym/dev/r-mas.github.io"
 
 theme = "toha"
 baseURL = "https://r-mas.github.io"
