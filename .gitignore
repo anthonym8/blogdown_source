@@ -6,3 +6,5 @@ docs
 static/
 blogdown/blog/scraping-historical-prices-using-bloomberg-api_cache/*
 static/rmarkdown-libs/
+layouts/
+resources/
