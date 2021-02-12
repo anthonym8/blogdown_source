@@ -25,10 +25,10 @@ markup:
     ordered: false
 
 # Enable Google Analytics
-googleAnalytics: UA-XXXXXXXXX-X
+googleAnalytics: G-98Y2F554DG
 
 # Enable Disqus forum
-disqusShortname: does-not-exist
+disqusShortname: r-mas-github-io
 
 # Enable global emoji support
 enableEmoji: true

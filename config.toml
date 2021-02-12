@@ -5,3 +5,5 @@ baseURL = "https://r-mas.github.io"
 languageCode = "en-us"
 title = "r-mas"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+googleAnalytics = "G-98Y2F554DG"
+disqusShortname = "r-mas-github-io"
